@@ -5,7 +5,7 @@ import Header from './components/header';
 import Home from './pages/home';
 import Register from './pages/register';
 import Login from './pages/login';
-// import logo from './logo.svg';
+
 
 
 
@@ -15,7 +15,6 @@ function App() {
     <div className="App">
       <Header />
       <Switch>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <Route path="/signIn">
         <Register></Register>
         </Route>
